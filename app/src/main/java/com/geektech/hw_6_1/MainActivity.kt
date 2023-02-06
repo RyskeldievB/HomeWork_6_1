@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initClickers() {
         with(binding) {
-            btnPass.setOnClickListener {
+            btnNext.setOnClickListener {
                 if (etText.text.isNotEmpty()) {
                     passData()
                 } else {

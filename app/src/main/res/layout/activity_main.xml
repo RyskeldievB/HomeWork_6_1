@@ -7,20 +7,21 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:textSize="20sp"
         android:id="@+id/etText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"
-        android:hint="@string/enter_text"
+        android:hint="@string/text"
         android:importantForAutofill="no"
         android:inputType="text" />
 
     <Button
-        android:id="@+id/btnPass"
+        android:id="@+id/btnNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        android:text="@string/pass"/>
+        android:text="@string/next"/>
 
 </LinearLayout>
